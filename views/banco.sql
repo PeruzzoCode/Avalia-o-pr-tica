@@ -7,4 +7,7 @@ CREATE TABLE funcionario {
     email VARCHAR(150),  NOT NULL,
     salario DECIMAL (10, 2), NOT NULL,
     tipo VARCHAR(30),  NOT NULL,
-}
+};
+
+INSERT INTO funcionarios ('id', 'nome', 'email', 'salario', 'tipo_func');
+
