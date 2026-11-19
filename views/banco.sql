@@ -1,7 +1,7 @@
 CREATE DATABASE empresa_db
 USE empresa_db
 
-CREATE TABLE funcionario(
+CREATE TABLE funcionarios(
     id INT, PRIMARY KEY, AUTO_INCREMENT,
     nome VARCHAR(100), NOT NULL,
     email VARCHAR(150),  NOT NULL,
@@ -11,3 +11,4 @@ CREATE TABLE funcionario(
 
 INSERT INTO funcionarios ('id', 'nome', 'email', 'salario', 'tipo_func');
 
+DELETE funcionarios ('id');
